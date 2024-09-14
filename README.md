@@ -35,7 +35,7 @@ From above, we see that the schema does not result in the correct column constra
 
 3. Toggle the migration logic back to the passing code (which matches what should work/is documented):
 
-    In [lib/database.dart](./lib/database.dart):
+    In [lib/database.dart](./lib/database.dart#L46):
 
     ```sh
     // This passes tests, but will fail on a real migration.
